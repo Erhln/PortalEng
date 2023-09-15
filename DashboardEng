@@ -36,7 +36,7 @@
     <title>Portal</title>
 </head>
 
-<body class="bg-gray-200 overflow-y-hidden overflow-x-hidden">
+<body class="bg-gray-200 min-h-screen overflow-y-hidden  ">
     <header class="flex items-center justify-between p-2 bg-white max-h-20 w-5/6 absolute right-0">
 
         <p class="p-2 text-2xl">TEAAPL</p>
@@ -155,18 +155,19 @@
                     <p class="text-slate-500 font-semibold text-sm">Payment code</p>
                 </div>
             </div>
+
         </div>
     </div>
-    <div class="container mx-auto flex items-center justify-center -mt-10 absolute right-20 w-2/3">
-        <div class="text-gray-400">
-            Developed by
-            <span><i class="fa fa-cube text-gray-400" aria-hidden="true"></i>SoftBiz</span>
+
+    <footer class="bg-white py-7 px-5 -mt-20 w-5/6 absolute right-0">
+        <div class="container mx-auto flex items-center justify-center">
+            <div class="text-gray-400">
+                Developed by
+                <span><a href="https://www.softbiz.eu/" target="_blank" class="text-blue-400"><i class="fa fa-cube"
+                            aria-hidden="true"></i>SoftBiz</a></span>
+            </div>
         </div>
-    </div>
-    <div class="text-center">
-        <p class="text-lg font-semibold text-gray-700 mb-2" id="last-updated-text">Τελευταία ενημέρωση:</p>
-        <p class="text-xl font-semibold text-blue-500" id="last-updated-info"></p>
-    </div>
+    </footer>
 
 
 
