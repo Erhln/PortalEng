@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    width: {
+                        'custom': '200px',
+                        'box': '140px',
+                    },
+                    height: {
+                        'custom': '100px',
+                        'box': '170px',
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    gap: {
+                        'custom': '20px'
+                    }
+                }
+            }
+        }
+    </script>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&Caveat:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Portal</title>
+</head>
+
+<body class="bg-gray-200 min-h-screen overflow-x-auto ">
+    <header class="flex items-center justify-between p-2 bg-white max-h-20 w-5/6 absolute right-0">
+
+        <p class="p-2 text-2xl">TEAAPL</p>
+
+        <div class="flex items-center p-2">
+
+            <img src="england1/uk.png" alt="flag-for-united-kingdom" class="w-15 h-12 p-2">
+
+            <div class="flex items-center p-2 border-l">
+
+                <p class="p-2">Name of Insured</p>
+                <span class="inline-block text-black text-3xl"><i class="fa fa-user" aria-hidden="true"></i></span>
+
+
+            </div>
+
+        </div>
+
+    </header>
+    <aside class=" min-h-screen w-1/6  text-white bg-blue-500 fixed">
+        <span><i class="fa fa-superpowers text-white mt-10 ml-5" aria-hidden="true"></i></span>
+        <div class=" p-4 text-lg font-semibold -mt-10 ml-7">Member Portal</div>
+        <ul class="p-2 border-y-2">
+            <li>
+                <a href="DashboardEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-tachometer text-slate-300 group-hover:text-white"
+                            aria-hidden="true"></i></span>
+                    Dashboard
+                </a>
+            </li>
+            <li>
+                <a href="Στοιχεια ΑσφαλισμενουEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-user text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Member Information
+                </a>
+            </li>
+            <li>
+                <a href="ΕισφορεςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-balance-scale text-slate-300 group-hover:text-white"
+                            aria-hidden="true"></i></span>
+                    Contributions
+                </a>
+            </li>
+            <li>
+                <a href="Ατομικος ΛογαριασμοςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-calculator text-slate-300 group-hover:text-white"
+                            aria-hidden="true"></i></span>
+                    Personal Account
+                </a>
+            </li>
+            <li>
+                <a href="ΕγγραφαEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-file text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Documents
+                </a>
+            </li>
+        </ul>
+
+        <div class="p-4 text-xs font-semibold text-start">ADMINISTRATOR</div>
+        <ul class="p-2 border-b-2">
+            <li>
+                <a href="ΑσφαλισμενοιEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-users text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Members
+                </a>
+            </li>
+            <li>
+                <a href="ΧρηστεςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-users text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Users
+                </a>
+            </li>
+            <li>
+                <a href="Ιστορικο ΕνεργειωνEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-history text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Action History
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+
+    <div class=" p-4 absolute top-0 right-4 w-6/6 h-auto left-60">
+
+
+        <div class="flex items-center justify-center  sm:justify-start h-20 mt-20">
+
+            <span><i class="fa fa-history text-black text-2xl " aria-hidden="true"></i></span>
+            <p class="px-2 text-2xl">Action History</p>
+
+        </div>
+
+        <div class="py-4 mx-auto ml-2 rounded-lg shadow-lg bg-gray-300">
+            <form class="flex flex-col items-center space-y-2 sm:space-y-0 sm:flex-row bg-gray-300">
+                <div class="flex items-center mr-4">
+                    <label for="from" class="block px-2 text-sm text-gray-600 md:text-base xl:text-lg"> Reference Date
+                    </label>
+                    <input type="date" id="from" name="from" class="hidden">
+                    <input type="text" id="formattedDate" placeholder="MM/DD/YYYY"
+                        class="px-4 py-2 text-sm border border-gray-300 rounded-md xl:w-40 sm:text-lg" required>
+                </div>
+                
+                <script>
+                    // Επιλέξτε το πεδίο εισαγωγής ημερομηνίας
+                    const dateInput = document.getElementById('from');
+                
+                    // Επιλέξτε το πεδίο κειμένου για τη μορφοποιημένη ημερομηνία
+                    const formattedDateInput = document.getElementById('formattedDate');
+                
+                    // Κατά την αλλαγή της τιμής του πεδίου εισαγωγής
+                    dateInput.addEventListener('change', () => {
+                        // Ανάκτηση της επιλεγμένης ημερομηνίας
+                        const selectedDate = dateInput.value;
+                
+                        // Διαχωρισμός της ημερομηνίας σε τμήματα (Ημέρα, Μήνας, Έτος)
+                        const parts = selectedDate.split('-');
+                
+                        // Εμφάνιση της ημερομηνίας σε μορφή "MM/DD/YYYY"
+                        const formattedDate = `${parts[1]}/${parts[2]}/${parts[0]}`;
+                
+                        // Ενημέρωση του πεδίου κειμένου με τη μορφοποιημένη ημερομηνία
+                        formattedDateInput.value = formattedDate;
+                    });
+                </script>
+                
+                <div class="flex">
+                    <button type="show"
+                        class="flex items-center px-5 py-3 text-base font-medium text-white rounded-md bg-blue-500 hover:bg-blue-600">
+                        <span><i class="fa fa-search text-white group-hover:text-white" aria-hidden="true"></i></span>
+                        <span class="ml-2">Show</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="flex items-center mr-4 mt-5">
+            <label for="show" class="block px-1 text-xs text-gray-600 md:text-sm xl:text-base">Show</label>
+            <div class="flex items-center">
+                <input type="number" placeholder="" class="px-2 py-1  text-black border border-gray-300 rounded-md xl:w-28 md:w-20 sm:w-16 xl:text-base md:text-sm " required>
+                <span class="ml-1 text-xs text-gray-600 md:text-sm xl:text-base">entries</span>
+            </div>
+        </div>
+        <div class="absolute right-0 top-43 -mt-10 flex items-center">
+            <label for="search" class="block px-1 text-xs text-gray-600 md:text-sm xl:text-base">Search:</label>
+            <input type="text" placeholder="" class="px-3 py-2 border h-8">
+        </div>
+        
+        
+        
+       
+
+        <div class="min-h-screen">
+
+            <div class="container py-8 mx-auto overflow-x-auto">
+                <form class="p-0 text-xs sm:p-4 sm:text-sm xl:text-base ">
+                    <table class="w-full border border-gray-300">
+                        <thead>
+                           
+                            <tr class="text-gray-600">
+                                <th class="p-2 border-b border-r bg-white ">Timestamp</th>
+                                <th class="p-2 border-b border-r bg-white ">Action</th>
+                                <th class="p-2 border-b border-r bg-white">Parameters</th>
+                                <th class="p-2 border-b border-r bg-white">IP Address</th>
+                                <th class="p-2 border-b border-r bg-white">Platform</th>
+                                <th class="p-2 border-b border-r bg-white">Browser</th>
+                                <th class="p-2 border-b border-r bg-white">BrowserVersion</th>
+                                <th class="p-2 border-b border-r bg-white">Username</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-right">
+                                <td class="p-2 text-center border-r border-gray-300">2023-09-06 11:45:26</td>
+                                <td class="p-2 border-r border-gray-300">Insured-Account </td>
+                                <td class="p-2 border-b border-r">
+                                    <span class="font-bold inline-block">FromDate:</span> 2023-03-06T00:00:000+02:00
+                                    <span class="font-bold inline-block">ToDate:</span> 2023-09-06T00:00:00
+                                    <span class="font-bold inline-block">exportType:</span> null
+                                </td>                                
+                                <td class="p-2 border-r border-gray-300"></td>
+                                <td class="p-2 border-r border-gray-300">Windows 10</td>
+                                <td class="p-2 border-r border-gray-300">Chrome</td>
+                                <td class="p-2 border-r border-gray-300">114.0</td>
+                                <td class="p-2 border-r border-gray-300"></td>
+                            </tr>
+                            <tr class="text-right bg-white">
+                                <td class="p-2 text-center border-b border-r">2023-09-06 11:45:06</td>
+                                <td class="p-2 border-b border-r">Insured-Contributions</td>
+                                <td class="p-2 border-b border-r">
+                                    <span class="font-bold inline-block">FromDate:</span> 2023-03-06T00:00:000+02:00
+                                    <span class="font-bold inline-block">ToDate:</span> 2023-09-06T00:00:00
+                                    <span class="font-bold inline-block">exportType:</span> null
+                                </td>
+                                
+                                <td class="p-2 border-b border-r"></td>
+                                <td class="p-2 border-b border-r">Windows 10</td>
+                                <td class="p-2 border-b border-r">Chrome</td>
+                                <td class="p-2 border-b border-r">114.0</td>
+                                <td class="p-2 border-b border-r"></td>
+                            </tr>
+                            <tr class="text-right">
+                                <td class="p-2 text-center border-r border-gray-300">2023-09-06 11:31:16</td>
+                                <td class="p-2 border-r border-gray-300">Account-LogOff</td>
+                                <td class="p-2 border-r border-gray-300"></td>
+                                <td class="p-2 border-r border-gray-300"></td>
+                                <td class="p-2 border-r border-gray-300">Mac OS</td>
+                                <td class="p-2 border-r border-gray-300">Safari</td>
+                                <td class="p-2 border-r border-gray-300">16.6</td>
+                                <td class="p-2 border-r border-gray-300"></td>
+                            </tr>
+                            <tr class="text-right bg-white">
+                                <td class="p-2 text-center border-b border-r">2023-09-06 11:31:01</td>
+                                <td class="p-2 border-b border-r">Insured-Account</td>
+                                <td class="p-2 border-b border-r">
+                                    <span class="font-bold inline-block">FromDate:</span> 2023-03-06T00:00:000+02:00
+                                    <span class="font-bold inline-block">ToDate:</span> 2023-09-06T00:00:00
+                                    <span class="font-bold inline-block">exportType:</span> null
+                                </td>
+                                
+                                <td class="p-2 border-b border-r"></td>
+                                <td class="p-2 border-b border-r">Mac OS</td>
+                                <td class="p-2 border-b border-r">Safari</td>
+                                <td class="p-2 border-b border-r">16.6</td>
+                                <td class="p-2 border-b border-r"></td>
+                            </tr>
+                            <tr class="text-right">
+                                <td class="p-2 text-center border-r border-gray-300">2023-09-06 </td>
+                                <td class="p-2 border-r border-gray-300">Account-Login</td>
+                                <td class="p-2 border-r border-gray-300">Result-Successful</td>
+                                <td class="p-2 border-r border-gray-300"></td>
+                                <td class="p-2 border-r border-gray-300">Mac OS</td>
+                                <td class="p-2 border-r border-gray-300">Safari</td>
+                                <td class="p-2 border-r border-gray-300">16.6</td>
+                                <td class="p-2 border-r border-gray-300"></td>
+                            </tr>
+                           
+                        </tbody>
+
+                    </table>
+
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
