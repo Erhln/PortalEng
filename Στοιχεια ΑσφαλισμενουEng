@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    width: {
+                        'custom': '200px',
+                        'box': '140px',
+                    },
+                    height: {
+                        'custom': '100px',
+                        'box': '170px',
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    gap: {
+                        'custom': '20px'
+                    }
+                }
+            }
+        }
+    </script>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&Caveat:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Portal</title>
+</head>
+
+<body class="bg-gray-200 ">
+    <header class="flex items-center justify-between p-2 bg-white max-h-20 w-5/6 absolute right-0">
+
+        <p class="p-2 text-2xl">TEAAPL</p>
+
+        <div class="flex items-center p-2">
+
+            <img src="england1/uk.png" alt="flag-for-united-kingdom" class="w-15 h-12 p-2">
+
+            <div class="flex items-center p-2 border-l">
+
+                <p class="p-2">Name of Insured</p>
+                <span class="inline-block text-black text-3xl"><i class="fa fa-user" aria-hidden="true"></i></span>
+
+
+            </div>
+
+        </div>
+
+    </header>
+    <aside class=" min-h-screen w-1/6  text-white bg-blue-500 fixed">
+        <span><i class="fa fa-superpowers text-white mt-10 ml-5" aria-hidden="true"></i></span>
+        <div class=" p-4 text-lg font-semibold -mt-10 ml-7">Member Portal</div>
+        <ul class="p-2 border-y-2">
+            <li>
+                <a href="DashboardEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-tachometer text-slate-300 group-hover:text-white"
+                            aria-hidden="true"></i></span>
+                    Dashboard
+                </a>
+            </li>
+            <li>
+                <a href="Στοιχεια ΑσφαλισμενουEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-user text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Member Information
+                </a>
+            </li>
+            <li>
+                <a href="ΕισφορεςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-balance-scale text-slate-300 group-hover:text-white"
+                            aria-hidden="true"></i></span>
+                    Contributions
+                </a>
+            </li>
+            <li>
+                <a href="Ατομικος ΛογαριασμοςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-calculator text-slate-300 group-hover:text-white"
+                            aria-hidden="true"></i></span>
+                    Personal Account
+                </a>
+            </li>
+            <li>
+                <a href="ΕγγραφαEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-file text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Documents
+                </a>
+            </li>
+        </ul>
+
+        <div class="p-4 text-xs font-semibold text-start">ADMINISTRATOR</div>
+        <ul class="p-2 border-b-2">
+            <li>
+                <a href="ΑσφαλισμενοιEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-users text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Members
+                </a>
+            </li>
+            <li>
+                <a href="ΧρηστεςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-users text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Users
+                </a>
+            </li>
+            <li>
+                <a href="Ιστορικο ΕνεργειωνEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                    <span><i class="fa fa-history text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
+                    Action History
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <div class="p-4 absolute top-0 right-4 w-2/4 h-90 left-60">
+        <div class="p-10 flex items-center left-0 mt-5">
+            <span><i class="fa fa-user text-3xl text-gray-800 -mt-3 absolute left-10" aria-hidden="true"></i></span>
+            <span class="text-gray-800 ml-2 relative top-0 text-2xl mt-4 absolute left-3">Member Information</span>
+        </div>
+        <button class="bg-green-500 text-white font-bold py-2 px-4 rounded  absolute items-center -mt-10 left-10">
+            Edit
+        </button>
+
+        <div
+            class="border-x-2 border-blue-500 border-b-2 border-blue-500 rounded-md absolute  mt-2 right-20 bg-white w-5/6">
+            <div class="w-30 h-10 bg-blue-500 p-6 rounded-md shadow-md flex items-center">
+                <i class="fa fa-male mr-2 text-2xl text-white" aria-hidden="true"></i>
+                <h2 class="text-2xl font-semibold mb-4 mt-3 text-white">Personal Information</h2>
+            </div>
+            <div class="flex justify-center items-center w-5/6 bg-blue-200 p-4 rounded-md mt-2 mx-auto">
+                <i class="fa fa-exclamation-circle text-blue-400 text-2xl mr-2" aria-hidden="true"></i>
+                <div>
+                    <p class="text-blue-200 font-bold"></p>
+                    <p>In the case of changes in your personal information,please update the Fund.</p>
+                </div>
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Member ID</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Entry Date</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Exit Date</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Payroll Code
+                </label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Lastname</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Firstname</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Fathername</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Date of
+                    Birth</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Gender</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Tax Identitication
+                    Number</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+            <div class="mb-4 flex items-center">
+                <label for="username" class="block text-sm font-medium text-gray-700 mr-2 ml-2">Social Security
+                    Number</label>
+                <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-1/2">
+            </div>
+        </div>
+    </div>
+
+    <div class="absolute top-20 right-10 w-2/6 h-auto">
+        <div class="w-3/3 h-10 bg-blue-500 p-2 rounded-md shadow-md flex items-center mt-10 ">
+            <i class="fa fa-envelope mr-2 text-xl text-white" aria-hidden="true"></i>
+            <h2 class="text-lg mb-1 mt-1 text-white mr-4">Communication</h2>
+        </div>
+        <div
+            class="bg-white p-5 items-center w-3/3 h-auto p-4 border-x-2 border-blue-500 border-b-2 border-blue-500 rounded-md">
+            <div class="relative mt-4 ">
+                <form>
+                    <div class="mb-4 flex items-center -mt-2">
+                        <label for="email" class="block text-sm font-medium text-gray-700 mr-1 ml-1">Email</label>
+                        <input type="text" id="email" name="email" class="mt-1 p-2 border rounded-md w-30">
+                    </div>
+                    <div class="mb-4 flex items-center mt-4">
+                        <label for="mobile" class="block text-sm font-medium text-gray-700 mr-1 ml-1">Cellphone</label>
+                        <input type="text" id="mobile" name="mobile" class="mt-1 p-2 border rounded-md w-30">
+                    </div>
+                    <div class="mb-4 flex items-center mt-4">
+                        <label for="phone" class="block text-sm font-medium text-gray-700 mr-1 ml-1">Landline</label>
+                        <input type="text" id="phone" name="phone" class="mt-1 p-2 border rounded-md w-30">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="w-3/3 h-10 bg-blue-500 p-2 rounded-md shadow-md flex items-center">
+                <i class="fa fa-building mr-2 text-xl text-white" aria-hidden="true"></i>
+                <h2 class="text-lg mb-1 mt-1 text-white mr-4">Address</h2>
+            </div>
+        </div>
+        <div
+            class="bg-white p-5 flex items-center w-3/3 h-auto p-4 border-x-2 border-blue-500 border-b-2 border-blue-500 rounded-md">
+            <div class="relative mt-4">
+                <form>
+                    <div class="mb-4 flex items-center -mt-2">
+                        <label for="email" class="block text-sm font-medium text-gray-700 mr-1 ml-1">Street</label>
+                        <input type="text" id="email" name="email" class="mt-1 p-1 border rounded-md w-30">
+                    </div>
+                    <div class="mb-4 flex items-center mt-4">
+                        <label for="mobile" class="block text-sm font-medium text-gray-700 mr-1 ml-1">City</label>
+                        <input type="text" id="mobile" name="mobile" class="mt-1 p-1 border rounded-md w-30">
+                    </div>
+                    <div class="mb-4 flex items-center mt-4">
+                        <label for="phone" class="block text-sm font-medium text-gray-700 mr-1 ml-1">Postal Code</label>
+                        <input type="text" id="phone" name="phone" class="mt-1 p-1 border rounded-md w-30">
+                    </div>
+                    <div class="mb-4 flex items-center mt-4">
+                        <label for="phone" class="block text-sm font-medium text-gray-700 mr-1 ml-1">Region</label>
+                        <input type="text" id="phone" name="phone" class="mt-1 p-1 border rounded-md w-30">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="w-3/3 h-10 bg-blue-500 p-2 rounded-md shadow-md flex items-center">
+                <i class="fa fa-database mr-2 text-xl text-white" aria-hidden="true"></i>
+                <h2 class="text-lg mb-1 mt-1 text-white mr-4">Other Info</h2>
+            </div>
+        </div>
+        <div
+            class="bg-white p-5  flex items-center w-3/3 h-auto p-2 py-2 border-x-2 border-blue-500 border-b-2 border-blue-500 rounded-md">
+            <div class="relative mt-4">
+                <form>
+                    <div class="mb-4 flex items-center -mt-2">
+                        <label for="email" class="block text-sm font-medium text-gray-700 mr-1 ml-1">Work Region</label>
+                        <input type="text" id="email" name="email" class="mt-1 p-1 border rounded-md w-30">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
