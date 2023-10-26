@@ -68,27 +68,27 @@
                 </a>
             </li>
             <li>
-                <a href="Στοιχεια ΑσφαλισμενουEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                <a href="Member InformationEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-user text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
                     Member Information
                 </a>
             </li>
             <li>
-                <a href="ΕισφορεςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                <a href="ContributionsEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-balance-scale text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
                     Contributions
                 </a>
             </li>
             <li>
-                <a href="Ατομικος ΛογαριασμοςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                <a href="Personal AccountEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-calculator text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
                     Personal Account
                 </a>
             </li>
             <li>
-                <a href="ΕγγραφαEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                <a href="DocumentsEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-file text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
                     Documents
                 </a>
@@ -98,19 +98,19 @@
         <div class="p-4 text-xs font-semibold text-start">ADMINISTRATOR</div>
         <ul class="p-2 border-b-2">
             <li>
-                <a href="ΑσφαλισμενοιEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                <a href="InsuredEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-users text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
                     Members
                 </a>
             </li>
             <li>
-                <a href="ΧρηστεςEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                <a href="UsersEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-users text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
                     Users
                 </a>
             </li>
             <li>
-                <a href="Ιστορικο ΕνεργειωνEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
+                <a href="Action HistoryEng.html" class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-history text-slate-300 group-hover:text-white" aria-hidden="true"></i></span>
                     Action History
                 </a>
@@ -262,87 +262,176 @@
                         </div>
                     </form>
                 </div>
-
-                <div class="flex items-center mr-5 mt-5">
-                    <label for="from" class="block px-2 text-sm text-gray-600 md:text-base xl:text-lg">Euros for
-                        investment
-                    </label>
+            </div>
+            <label for="from" class="block px-2 text-sm text-gray-600 md:text-base xl:text-lg">Euros for
+                investment
+            </label>
+            <table id="euros" class="w-full border border-gray-300">
+                <thead>
+                    <tr class="text-white">
+                        <th class="p-2 border-b border-r bg-blue-500 ">Date</th>
+                        <th class="p-2 border-b border-r bg-blue-500 ">Account Type</th>
+                        <th class="p-2 border-b border-r bg-blue-500">Transaction Type</th>
+                        <th class="p-2 border-b border-r bg-blue-500">Description</th>
+                        <th class="p-2 border-b border-r bg-blue-500">Euro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-right border-yellow-300 bg-yellow-200">
+                        <td class="p-2 text-center border-r border-yellow-300">Open Balance</td>
+                        <td class="p-2 border-r border-yellow-300 text-center w-1/3">Member Regular Contribution</td>
+                        <td class="p-2 border-r border-yellow-300"></td>
+                        <td class="p-2 border-r border-yellow-300"></td>
+                        <td class="p-2 border-r border-yellow-300">0,00</td>
+                    </tr>
+                    <tr class="text-right bg-white">
+                        <td class="p-2 text-center border-b border-r">30/03/2023</td>
+                        <td class="p-2 border-b border-r text-center">Regular Contribution of the Insured</td>
+                        <td class="p-2 border-b border-r">Contribution</td>
+                        <td class="p-2 border-b border-r">03-2023</td>
+                        <td class="p-2 border-b border-r"></td>
+                    </tr>
+                    <tr class="text-right">
+                        <td class="p-2 text-center border-r border-gray-300">01/04/2023</td>
+                        <td class="p-2 border-r border-gray-300 text-center">Regular Contribution of the Insured</td>
+                        <td class="p-2 border-r border-gray-300">Purchase of Shares</td>
+                        <td class="p-2 border-r border-gray-300"></td>
+                        <td class="p-2 border-r border-gray-300"></td>
+                    </tr>
+                    <tr class="text-right bg-white">
+                        <td class="p-2 text-center border-b border-r">27/04/2023</td>
+                        <td class="p-2 border-b border-r text-center">Regular Contribution of the Insured</td>
+                        <td class="p-2 border-b border-r">Contribution</td>
+                        <td class="p-2 border-b border-r">04-2023</td>
+                        <td class="p-2 border-b border-r"></td>
+                    </tr>
+                    <tr class="text-right">
+                        <td class="p-2 text-center border-r border-gray-300">01/04/2023</td>
+                        <td class="p-2 border-r border-gray-300 text-center">Regular Contribution of the Insured</td>
+                        <td class="p-2 border-r border-gray-300">Purchase of Shares</td>
+                        <td class="p-2 border-r border-gray-300"></td>
+                        <td class="p-2 border-r border-gray-300"></td>
+                    </tr>
+                    <tr class="text-right bg-white">
+                        <td class="p-2 text-center border-b border-r">27/04/2023</td>
+                        <td class="p-2 border-b border-r text-center">Regular Contribution of the Insured</td>
+                        <td class="p-2 border-b border-r">Contribution</td>
+                        <td class="p-2 border-b border-r">05-2023</td>
+                        <td class="p-2 border-b border-r"></td>
+                    </tr>
+                    <tr class="text-right">
+                        <td class="p-2 text-center border-r border-gray-300">01/04/2023</td>
+                        <td class="p-2 border-r border-gray-300 text-center">Regular Contribution of the Insured</td>
+                        <td class="p-2 border-r border-gray-300">Purchase of Shares</td>
+                        <td class="p-2 border-r border-gray-300"></td>
+                        <td class="p-2 border-r border-gray-300"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="w-4/5  absolute items-center right-10 mt-50">
+        
+        <div id="cardContent" style="display: none;">
+            <div class="lg:grid lg:grid-cols-3 gap-3 space-y-4 mt-4">
+                <!-- Πρώτη κάρτα -->
+                <div class="lg:col-span-1 mt-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h2 class="text-xl font-semibold mb-2">Date: 30/03/2023</h2>
+                        <span class="font-bold inline-block"> Account Type:</span> Regular Contribution of the
+                        Insured
+                        <br>
+                        <span class="font-bold inline-block"> Transaction Type: </span> Contribution
+                        <span class="font-bold inline-block"> Description: </span> 03-2023
+                        <br>
+                        <span class="font-bold inline-block"> Euro:</span>
+                    </div>
                 </div>
-                <table class="w-full border border-gray-300 absolute left-5">
-                    <thead>
-                        <tr class="text-white">
-                            <th class="p-2 border-b border-r bg-blue-500 ">Date</th>
-                            <th class="p-2 border-b border-r bg-blue-500 ">Account Type</th>
-                            <th class="p-2 border-b border-r bg-blue-500">Transaction Type</th>
-                            <th class="p-2 border-b border-r bg-blue-500">Description</th>
-                            <th class="p-2 border-b border-r bg-blue-500">Euro</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="text-right border-yellow-300 bg-yellow-200">
-                            <td class="p-2 text-center border-r border-yellow-300">Open Balance</td>
-                            <td class="p-2 border-r border-yellow-300 text-center w-1/3">Member Regular Contribution</td>
-                            <td class="p-2 border-r border-yellow-300"></td>
-                            <td class="p-2 border-r border-yellow-300"></td>
-                            <td class="p-2 border-r border-yellow-300">0,00</td>
-                        </tr>
-                        <tr class="text-right bg-white">
-                            <td class="p-2 text-center border-b border-r">30/03/2023</td>
-                            <td class="p-2 border-b border-r text-center">Regular Contribution of the Insured</td>
-                            <td class="p-2 border-b border-r">Contribution</td>
-                            <td class="p-2 border-b border-r">03-2023</td>
-                            <td class="p-2 border-b border-r"></td>
-                        </tr>
-                        <tr class="text-right">
-                            <td class="p-2 text-center border-r border-gray-300">01/04/2023</td>
-                            <td class="p-2 border-r border-gray-300 text-center">Regular Contribution of the Insured</td>
-                            <td class="p-2 border-r border-gray-300">Purchase of Shares</td>
-                            <td class="p-2 border-r border-gray-300"></td>
-                            <td class="p-2 border-r border-gray-300"></td>
-                        </tr>
-                        <tr class="text-right bg-white">
-                            <td class="p-2 text-center border-b border-r">27/04/2023</td>
-                            <td class="p-2 border-b border-r text-center">Regular Contribution of the Insured</td>
-                            <td class="p-2 border-b border-r">Contribution</td>
-                            <td class="p-2 border-b border-r">04-2023</td>
-                            <td class="p-2 border-b border-r"></td>
-                        </tr>
-                        <tr class="text-right">
-                            <td class="p-2 text-center border-r border-gray-300">01/04/2023</td>
-                            <td class="p-2 border-r border-gray-300 text-center">Regular Contribution of the Insured</td>
-                            <td class="p-2 border-r border-gray-300">Purchase of Shares</td>
-                            <td class="p-2 border-r border-gray-300"></td>
-                            <td class="p-2 border-r border-gray-300"></td>
-                        </tr>
-                        <tr class="text-right bg-white">
-                            <td class="p-2 text-center border-b border-r">27/04/2023</td>
-                            <td class="p-2 border-b border-r text-center">Regular Contribution of the Insured</td>
-                            <td class="p-2 border-b border-r">Contribution</td>
-                            <td class="p-2 border-b border-r">05-2023</td>
-                            <td class="p-2 border-b border-r"></td>
-                        </tr>
-                        <tr class="text-right">
-                            <td class="p-2 text-center border-r border-gray-300">01/04/2023</td>
-                            <td class="p-2 border-r border-gray-300 text-center">Regular Contribution of the Insured</td>
-                            <td class="p-2 border-r border-gray-300">Purchase of Shares</td>
-                            <td class="p-2 border-r border-gray-300"></td>
-                            <td class="p-2 border-r border-gray-300"></td>
-                        </tr>
+                <!-- Δεύτερη κάρτα -->
+                <div class="lg:col-span-1 mt-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h2 class="text-xl font-semibold mb-2">Date: 01/04/2023</h2>
+                        <span class="font-bold inline-block"> Account Type:</span> Regular Contribution of the
+                        Insured
+                        <br>
+                        <span class="font-bold inline-block"> Transaction Type: </span> Purchase of Shares
+                        <span class="font-bold inline-block"> Description: </span>
+                        <br>
+                        <span class="font-bold inline-block">Euro: </span>
+                    </div>
+                </div>
 
+                <!-- Τρίτη κάρτα -->
+                <div class="lg:col-span-1 mt-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h2 class="text-xl font-semibold mb-2">Date: 27/04/2023</h2>
+                        <span class="font-bold inline-block"> Account Type:</span> Regular Contribution of the
+                        Insured
+                        <br>
+                        <span class="font-bold inline-block"> Transaction Type: </span> Contribution
+                        <span class="font-bold inline-block"> Description: </span> 04-2023
+                        <br>
+                        <span class="font-bold inline-block"> Euro:</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:grid lg:grid-cols-3 gap-5 space-y-4 mt-4 ">
+                <!-- Πρώτη επιπλέον κάρτα -->
+                <div class="lg:col-span-1 mt-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h2 class="text-xl font-semibold mb-2">Date: 01/04/2023</h2>
+                        <span class="font-bold inline-block"> Account Type:</span> Regular Contribution of the
+                        Insured
+                        <br>
+                        <span class="font-bold inline-block"> Transaction Type: </span> Purchase of Shares
+                        <span class="font-bold inline-block"> Description: </span>
+                        <br>
+                        <span class="font-bold inline-block"> Euro:</span>
+                    </div>
+                </div>
 
+                <!-- Δεύτερη επιπλέον κάρτα -->
+                <div class="lg:col-span-1 mt-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h2 class="text-xl font-semibold mb-2">Date: 27/04/2023</h2>
+                        <span class="font-bold inline-block"> Account Type:</span> Regular Contribution of the
+                        Insured
+                        <br>
+                        <span class="font-bold inline-block"> Transaction Type: </span> Contribution
+                        <span class="font-bold inline-block"> Description: </span> 05-2023
+                        <br>
+                        <span class="font-bold inline-block"> Euro:</span>
+                    </div>
+                </div>
 
-                    </tbody>
-
-                </table>
-
+                <!-- Τρίτη επιπλέον κάρτα -->
+                <div class="lg:col-span-1 mt-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h2 class="text-xl font-semibold mb-2">Date: 01/04/2023</h2>
+                        <span class="font-bold inline-block"> Account Type:</span> Regular Contribution of the
+                        Insured
+                        <br>
+                        <span class="font-bold inline-block"> Transaction Type: </span> Purchase of Shares
+                        <span class="font-bold inline-block"> Description: </span>
+                        <br>
+                        <span class="font-bold inline-block"> Euro:</span>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-    </div>
-
-
-
+        <script>
+            document.getElementById('cardButton').addEventListener('click', function () {
+                var cardContent = document.getElementById('cardContent');
+                var eurosTable = document.getElementById('euros');
+                if (cardContent.style.display === 'none' || cardContent.style.display === '') {
+                    cardContent.style.display = 'block';
+                    eurosTable.style.display = 'none'; // Κρύβετε τον πίνακα
+                } else {
+                    cardContent.style.display = 'none';
+                    eurosTable.style.display = 'table'; // Εμφανίζετε τον πίνακα ξανά
+                }
+            });
+        </script>
 
 
 </body>
