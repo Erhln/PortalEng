@@ -68,7 +68,7 @@
                 </a>
             </li>
             <li>
-                <a href="Στοιχεια ΑσφαλισμενουEng.html"
+                <a href="Member InformationEng.html"
                     class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-user text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
@@ -76,7 +76,7 @@
                 </a>
             </li>
             <li>
-                <a href="ΕισφορεςEng.html"
+                <a href="ContributionsEng.html"
                     class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-balance-scale text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
@@ -84,7 +84,7 @@
                 </a>
             </li>
             <li>
-                <a href="Ατομικος ΛογαριασμοςEng.html"
+                <a href="Personal AccountEng.html"
                     class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-calculator text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
@@ -92,7 +92,7 @@
                 </a>
             </li>
             <li>
-                <a href="ΕγγραφαEng.html"
+                <a href="DocumentsEng.html"
                     class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-file text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
@@ -104,7 +104,7 @@
         <div class="p-4 text-xs font-semibold text-start">ADMINISTRATOR</div>
         <ul class="p-2 border-b-2">
             <li>
-                <a href="ΑσφαλισμενοιEng.html"
+                <a href="InsuredEng.html"
                     class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-users text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
@@ -112,7 +112,7 @@
                 </a>
             </li>
             <li>
-                <a href="ΧρηστεςEng.html"
+                <a href="UsersEng.html"
                     class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-users text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
@@ -120,7 +120,7 @@
                 </a>
             </li>
             <li>
-                <a href="Ιστορικο ΕνεργειωνEng.html"
+                <a href="Action HistoryEng.html"
                     class="block px-4 py-2 hover:bg-blue-600 mt-5">
                     <span><i class="fa fa-history text-slate-300 group-hover:text-white"
                             aria-hidden="true"></i></span>
